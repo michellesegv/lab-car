@@ -1,0 +1,204 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="assets/css/bootstrap.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:600,700" rel="stylesheet">
+	</head>
+	<body>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-xs-3 col-sm-3">
+								<button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+							<div class="col-sm-9 col-xs-9">
+								<a class="navbar-brand" href="#"><img src="assets/img/logoForma.png" alt="Logo"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav pull-right">
+						<li><a href="#">Viaja</a></li>
+						<li><a href="#">Conduce</a></li>
+						<li><a href="#">Inicia sesión</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<section id="hero">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-5 col-lg-offset-7 col-md-5 col-md-offset-7 col-sm-7 col-sm-offset-5 col-xs-10 col-xs-offset-2">
+						<div class="registrate color-lab raleway">
+							<div class="hidden-sm hidden-xs">
+								<h1 class="margin-2">Disfruta del viaje <br> Eres dueño de tu tiempo</h1>
+								<h3 class="margin-2">Viaja con <br class="hidden-lg"><img src="assets/img/logoBlanco.png" alt="Logo"></h3>
+								<p>REGÍSTRATE</p>
+								<div class="row margin-2">
+									<div class="col-md-4"><hr></div>
+									<div class="col-md-4">O bien</div>
+									<div class="col-md-4"><hr></div>
+								</div>
+								<button class="btn btn-warning btn-lg color-white">Conviértete en un conductor</button>
+							</div>
+							<div class="visible-sm visible-xs">
+								<h1>Comienza a viajar con <img src="assets/img/logoBlanco.png" alt=""></h1>
+								<button class="btn btn-warning btn-lg color-white">Descarga el app</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="container-fluid color-lab">
+				<div class="row">
+					<div class="col-md-10 col-xs-12">
+						<div class="aplicacion">
+							<div class="row">
+								<div class="col-md-6 col-xs-12">
+									<h3 class="raleway hidden-lg hidden-md">La nueva app</h3>
+									<img src="assets/img/iPhone6Plus.png" alt="iPhone">
+								</div>
+								<div class="col-md-6 hidden-xs">
+									<h2 class="raleway">Descarga la nueva app</h2>
+									<p class="open-sans">La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido. <br><br> Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir</p>
+								</div>
+							</div>
+						</div>
+						<h4 class="raleway text-white hidden-lg hidden-md text-center">Llega a tu destino aún más rápido</h4>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="conductor">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-4 col-md-offset-8 col-xs-12 fondo-oscuro">
+						<h2 class="raleway">Conduce cuando quieras</h2>
+						<p class="open-sans">LabCar es una opción flexible para alcanzar tus metas financieras. </p>
+						<button class="raleway color-lab btn btn-warning btn-lg">Conviértete en conductor</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="tarifa color-lab">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-xs-12 margin-8">
+						<h2 class="raleway">Tarifas</h2>
+						<p class="open-sans">Consulta las tarifas LabCar aquí</p>
+						<div class="contenedor-inputs">
+							<div class="row">
+								<div class="col-md-2 col-xs-1">
+									<img class="icon-pricing" src="assets/img/shape.png" alt="">
+								</div>
+								<div class="col-md-10 col-xs-10">
+									<input type="text" placeholder="Ingrese su punto de partida" class="color-lab" id="inicio">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-2 col-xs-1">
+									<img class="icon-pricing" src="assets/img/shape2.png" alt="">
+								</div>
+								<div class="col-md-10 col-xs-10">
+									<input type="text" placeholder="Ingrese su destino" class="color-lab" id="destino">
+								</div>
+							</div>
+							<button id="trazar-ruta">¡TRAZAR RUTA!</button>
+							<div id="tarifa"></div>
+						</div>
+					</div>
+					<div class="col-md-6 hidden-xs hidden-sm">
+						<div class="contenedor-mapa">
+							<div id="map"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2 col-xs-12">
+						<img src="assets/img/logoBlanco.png" alt="Logo" class="img-responsive">
+					</div>
+				</div>
+				<hr>
+				<div class="row flex">
+					<div class="col-md-3 hidden-xs flex abajo-items">
+						<i class="icon-facebook"></i>
+						<i class="icon-twitter"></i>
+						<i class="icon-linkedin2"></i>
+						<i class="icon-appleinc"></i>
+						<i class="icon-play3"></i>
+					</div>
+					<div class="col-md-3 col-xs-6">
+						<ul>
+							<li>Viaja</li>
+							<li>Conduce</li>
+							<li>Ciudades</li>
+							<li>Ciudades</li>
+							<li>Entregas</li>
+							<li>Cómo funciona?</li>
+							<li>Países</li>
+							<li>Seguridad</li>
+						</ul>
+					</div>
+					<div class="col-md-3 hidden-xs">
+						<ul>
+							<li>Oportunidades</li>
+							<li>Nuestra historia</li>
+							<li>API de LabCar</li>
+							<li>Eventos</li>
+							<li>Desarrolladores</li>
+							<li>Servicios</li>
+							<li>Laboratoria</li>
+							<li>Coders</li>
+						</ul>
+					</div>
+					<div class="col-xs-6 hidden-md hidden-lg">
+						<div class="col-xs-12 ph-0">
+							<i class="icon-facebook"></i>
+							<i class="icon-twitter"></i>
+							<i class="icon-linkedin2"></i>
+							<i class="icon-appleinc"></i>
+							<i class="icon-play3"></i>
+						</div>
+						<br><br><br>
+						<img src="assets/img/enBadgeWebGeneric.png" alt="" class="img-responsive">
+						<br>
+						<img src="assets/img/appstore.png" alt="" class="img-responsive">
+					</div>
+					<div class="col-md-3 hidden-xs flex column-reverse">
+						<img src="assets/img/enBadgeWebGeneric.png" alt="">
+						<img src="assets/img/appstore.png" alt="">
+					</div>
+				</div>
+				<hr>
+				<p class="text-center">© 2017 LabCar technologies Inc.</p>
+			</div>
+		</footer>
+		<script async defer
+				src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyWaBRUXn7ke9mCM2c0mPbXNa4SvjDsiQ&callback=initMap&libraries=places">
+		</script>
+		<script src="assets/js/jquery.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/app.js"></script>
+	</body>
+</html>

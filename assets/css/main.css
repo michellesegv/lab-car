@@ -1,0 +1,283 @@
+.flex{
+	display: flex;
+}
+.abajo-items{
+	align-items: flex-end;
+}
+.column-reverse{
+	flex-direction: column-reverse;
+}
+button:focus, input:focus{
+	outline: 0;
+}
+.color-lab{
+	background-color: #f7b617;
+	border: 0;
+}
+.color-white{
+	background-color: #fff;
+	border: 0;
+	color: black;
+}
+.text-white{
+	color: #fff;
+}
+.raleway{
+	font-family: "Raleway";
+	font-weight: 600;
+}
+.open-sans{
+	font-family: "Open Sans";
+}
+.margin-2{
+	margin: 2rem 0;
+}
+.margin-8{
+	margin: 8rem 0;
+}
+/*NAVBAR*/
+.navbar-toggle:hover, .navbar-toggle:focus{
+	background-color: transparent !important;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+.navbar-brand img{
+	height: 100%;
+}
+.navbar-brand{
+	padding: 4.5rem 8rem;
+	height: 120px;
+}
+.navbar-nav li a{
+	font-family: "Open Sans";
+	color: #2b2b2b !important;
+	font-size: 1.2em;
+	padding: 4.5rem 3rem;
+	height: 120px;
+}
+.navbar-nav{
+	padding-right: 6rem;
+}
+.navbar-default{
+	background-color: #fff;
+	border-color: #fff;
+}
+
+/*HERO*/
+#hero{
+	background-image: url(../img/taxi.jpg);
+	background-size: cover;
+	background-position: 100% 92%;
+
+}
+#hero .col-md-5{
+	padding-right: 0;
+}
+.registrate{
+	padding: 4rem;
+	margin: 15rem 0;
+	color: white;
+}
+.registrate h1{
+	margin-top: 0;
+	margin-bottom: 4rem;
+}
+.registrate img{
+	margin: 0 1rem;
+	width: 20%;
+}
+.registrate .row{
+	text-align: center;
+	vertical-align: top;
+}
+/*Aplicación*/
+.aplicacion{
+	border: 1px solid #fff;
+	margin: 4rem 0;
+	padding: 4rem 0;
+	border-left:0px;
+	text-align: center;
+	color: white;
+}
+.aplicacion img{
+	width: 60%;
+}
+.color-lab .row .col-md-10{
+	padding-left: 0;
+}
+.aplicacion .col-md-6:nth-child(2){
+	text-align:left;
+	padding-right: 20rem;
+}
+.aplicacion p{
+	font-size: 1.5em;
+	margin-top: 2rem;
+}
+
+/*Conductor*/
+#conductor{
+	background-image: url(../img/conduce.jpg);
+	background-size: cover;
+	background-position: 100% 54%;
+}
+.fondo-oscuro{
+	color: white;
+	font-size: 1.3em;
+	background-color: rgba(0,0,0,0.5);
+	padding: 8rem 4rem 20rem 4rem;
+}
+
+/*Tarifa*/
+.tarifa{
+	color: white;
+}
+.tarifa p{
+	font-size: 1.3em;
+	margin: 2rem 0 4rem 0;
+}
+.contenedor-inputs{
+	width: 65%;
+}
+.contenedor-inputs input{
+	width: 100%;
+	color: white;
+	padding: 1rem;
+	border: 1px solid white;
+	border-radius: 8px;
+}
+::-webkit-input-placeholder{
+	color: white;
+	font-family: "Open Sans";
+}
+.contenedor-inputs .row{
+	margin-bottom: 3rem;
+}
+#trazar-ruta{
+	background-color: white;
+	color: #2b2b2b;
+	border: 0;
+	padding: 1rem 3rem;
+	border-radius: 3px;
+	margin: 0 auto;
+	display: block;
+	font-weight: 700;
+}
+#map{
+	width: 100%;
+	height: 100%;
+}
+.contenedor-mapa{
+	margin: 50px auto;
+	width: 90%;
+	height: 450px;
+	padding: 10px;
+	border: 1px solid white;
+}
+#tarifa{
+	text-align: center;
+	font-family: "Open Sans";
+	padding-top: 3rem;
+	font-weight: 700;
+	color: #2b2b2b;
+	font-size: 2em;
+}
+/*footer*/
+footer{
+	background-color:#2B2B2B;
+	color: white;
+	padding: 8rem 0;
+	font-family: "Open Sans";
+}
+footer .col-md-3 img{
+	width: 60%;
+	margin: 1rem 0;
+}
+footer li{
+	list-style: none;
+	padding: 1rem 0;
+}
+footer ul{
+	padding: 0;
+}
+footer i{
+	margin-right: 8px;
+}
+/*Medias queries*/
+@media (max-width: 768px) {
+	.navbar-toggle{
+		margin-top: 4rem;
+		margin-left: 2rem;
+		border: 0;
+	}
+	.navbar{
+		margin-bottom: 0px;
+	}
+	.navbar-brand{
+		padding: 5rem 0;
+		padding-left: 4rem;
+	}
+	.aplicacion .col-md-6:nth-child(2) {
+		text-align: center;
+		padding-right: 0;
+	}
+	.aplicacion h3{
+		margin-bottom: 2rem;
+	}
+	div.col-md-10.col-xs-12 h4{
+		margin-top: 0;
+		margin-bottom: 4rem;
+	}
+	h2, .h2 {
+		font-size: 20px;
+	}
+	.aplicacion p {
+		font-size: 1.2em;
+		margin-top: 2rem;
+	}
+	.ph-0{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.fondo-oscuro{
+		padding: 4rem 1rem;
+	}
+	.fondo-oscuro button{
+		margin: 1rem 0; 
+	}
+	.contenedor-inputs {
+		width: 100%;
+	}
+	.contenedor-mapa {
+		margin: 0px;
+		margin-bottom: 6rem;
+		width: 90%;
+		height: 50%;
+		padding: 10px;
+		border: 1px solid white;
+	}
+	.registrate img{
+		width: 46%;
+	}
+	.aplicacion {
+		border: 1px solid #fff;
+		margin: 4rem 0;
+		padding: 4rem 0;
+		border-left: 1px solid #fff;
+		text-align: center;
+		color: white;
+	}
+	.nav.navbar-nav.pull-right{
+		float: left !important;
+	}
+	.color-lab .row .col-md-10 {
+		padding-left: 15px;
+	}
+	footer{
+		padding: 5rem 0;
+	}
+	.icon-pricing{
+		position: relative;
+		top: 1rem;
+	}
+}
